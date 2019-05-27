@@ -1,0 +1,105 @@
+h1, p {
+  font-family: Lato;
+}
+
+.container {
+  margin: 0 auto;
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.exampleTitle {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.textarea {
+  transition: 0.4s;
+  min-height: 400px;
+  box-sizing:border-box;
+  border: 2px solid rgba(153,128,153, 0.9);
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px;
+  outline: none;
+  resize: none;
+  color: rgba(0,0,0, 0.6);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fieldTitle {
+  display: block;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.selectWrapper {
+  margin-bottom: 20px;
+  display: none
+}
+
+.selectTitle {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: none
+}
+
+.password {
+  box-sizing:border-box;
+  border: 2px solid rgba(153,128,153, 0.9);
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px;
+  outline: none;
+  resize: none;
+  color: rgba(0,0,0, 0.6);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.button {
+  transition: 0.3s;
+  width: 300px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(153,128,153, 0.9);
+  padding: 15px;
+}
+
+.copied {
+  background-color: rebeccapurple;
+}
+
+.button.copied:hover {
+  background-color: rebeccapurple;;
+}
+
+.button:hover {
+  background-color: rgba(153,128,153, 1);
+}
+
+.button:active {
+  background-color: rgba(122,102,122, 1);
+}
+
+.output {
+  min-height: 80x;
+  min-width: 600px;
+  margin: 10px;
+  padding: 15px;
+  overflow: auto;
+  background-color: #d2e1dd;
+  font-size: 16px;
+}
