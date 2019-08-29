@@ -54,7 +54,7 @@ class App extends Component {
           <Select isMulti defaultValue={[...ignoredValues]} options={ignoredValues} onChange={this.onChangeSelect}></Select>
         </div>
         <p className={'output'}>
-          <div className={'exampleTitle'}>JSON пример: </div>
+          <div className={'exampleTitle'}>JSON example: </div>
           <span>{example}</span>
         </p>
         <textarea
