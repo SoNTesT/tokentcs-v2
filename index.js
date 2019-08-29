@@ -67,7 +67,7 @@ class App extends Component {
         <button
           className={'button'}
           onClick={this.onClickGetData}>
-          Get Data
+          Get token data
           </button>
         {token ? <span className={'fieldTitle'}>Token (SHA):</span> : null}
         {token ? <p className={'output'}>{this.state.token}</p> : null}
