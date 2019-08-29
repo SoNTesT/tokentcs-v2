@@ -31,13 +31,6 @@ const example = `{
             "Quantity": "1",
             "Amount": "364000",
             "Tax": "vat18"
-         },
-         {
-            "Name": "Замшевые мокасины на фактурной подошве",
-            "Price": "975000",
-            "Quantity": "1",
-            "Amount": "487500",
-            "Tax": "vat18"
          }
       ]
    }
