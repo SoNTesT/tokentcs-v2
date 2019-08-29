@@ -17,7 +17,7 @@ h1, p {
 
 .textarea {
   font-family: 'Helvetica Neue',sans-serif;
-  transition: 0.8s;
+  transition: 0.6s;
   min-height: 350px;
   font-weight: 400;
   box-sizing:border-box;
@@ -61,7 +61,7 @@ h1, p {
 .password {
   font-family: 'Helvetica Neue',sans-serif;
   box-sizing:border-box;
-  transition: 0.8s;
+  transition: 0.6s;
   border: 1px solid #cbcfd3;
   border-radius: 4px;
   padding: 15px;
@@ -83,7 +83,7 @@ h1, p {
 .button {
   border-radius: 5px;
   font-family: pragmatica;
-  transition: 0.3s;
+  transition: 0.5s;
   width: 230px;
   margin: 10px;
   margin-left: auto;
@@ -112,7 +112,7 @@ h1, p {
 }
 
 .button:active {
-  color: white;
+  color: black;
   border-radius: 5px;
   background-color: #fab619;
 }
