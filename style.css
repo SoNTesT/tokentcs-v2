@@ -99,6 +99,7 @@ h1, p {
   text-transform: uppercase;
   background-color: #ffdd2d;
   padding: 15px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,.12);
 }
 
 .copied {
