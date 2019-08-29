@@ -11,7 +11,7 @@ h1, p {
 }
 
 .exampleTitle {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: buiHeading,-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,Roboto,'Helvetica Neue',sans-serif;;
   font-weight: 600;
 }
 
