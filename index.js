@@ -53,7 +53,7 @@ class App extends Component {
   }
 
   render() {
-    const { token, concString, request } = this.state
+    const { token, concString, request, ignoredValues } = this.state
     return (
       <div className={'container'}>
         <div className={'selectWrapper'}>
