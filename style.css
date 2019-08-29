@@ -75,11 +75,9 @@ h1, p {
   margin-left: auto;
   margin-right: auto;
   outline: none;
-  font-size: 13px;
+  font-size: 15px;
   border: 0;
-  font-stretch: normal;
   text-transform: uppercase;
-  font-weight: 600;
   background-color: #ffdd2d;
   padding: 15px;
 }
