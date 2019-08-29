@@ -17,10 +17,10 @@ h1, p {
 
 .textarea {
   font-family: 'Helvetica Neue',sans-serif;
-  transition: 0.4s;
+  transition: 0.8s;
   min-height: 350px;
   box-sizing:border-box;
-  border: 2px solid #cbcfd3;
+  border: 1px solid #cbcfd3;
   border-radius: 4px;
   padding: 15px;
   margin: 10px;
@@ -29,7 +29,16 @@ h1, p {
   color: rgba(0,0,0, 0.6);
   font-size: 15px;
   background-color: #ecf1f7;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,.12);
 }
+
+.textarea:focus {
+  background-color: white;
+  border: 1px solid #616871;
+  border-radius: 4px;
+}
+
+
 
 .fieldTitle {
   display: block;
@@ -51,9 +60,10 @@ h1, p {
 }
 
 .password {
+  transition: 0.8s;
   font-family: 'Helvetica Neue',sans-serif;
   box-sizing:border-box;
-  border: 2px solid #cbcfd3;
+  border: 1px solid #cbcfd3;
   border-radius: 4px;
   padding: 15px;
   margin: 10px;
@@ -62,6 +72,17 @@ h1, p {
   resize: none;
   color: black;
   font-size: 15px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,.12);
+}
+
+.password:focus{
+  background-color: white;
+  border: 1px solid #616871;
+  border-radius: 4px;
+}
+
+.password:not(:focus):hover{
+  background-color: #e4ebf3;
 }
 
 .button {
@@ -69,7 +90,7 @@ h1, p {
   font-family: pragmatica;
   transition: 0.3s;
   width: 230px;
-  margin: 10px;
+  margin: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: none;
@@ -107,6 +128,7 @@ h1, p {
   padding: 15px;
   overflow: auto;
   font-size: 16px;
+  border: 1px solid #cbcfd3;
   background-color: #f5f5f6;
 }
 
@@ -121,4 +143,6 @@ h1, p {
   overflow: auto;
   font-size: 16px;
   background-color: #f5f5f6;
+    border: 1px solid #cbcfd3;
+
 }
