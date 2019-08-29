@@ -53,10 +53,7 @@ class App extends Component {
           <span className={'selectTitle'}>Ignored Props:</span>
           <Select isMulti defaultValue={[...ignoredValues]} options={ignoredValues} onChange={this.onChangeSelect}></Select>
         </div>
-        <p className={'output'}>
-          <div className={'exampleTitle'}>JSON example: </div>
-          <span>{example}</span>
-        </p>
+
         <textarea
           onChange={this.onChange}
           value={this.state.textAreaData}
