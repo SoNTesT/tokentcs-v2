@@ -18,7 +18,7 @@ h1, p {
 .textarea {
   font-family: 'Helvetica Neue',sans-serif;
   transition: 0.4s;
-  min-height: 400px;
+  min-height: 350px;
   box-sizing:border-box;
   border: 2px solid #cbcfd3;
   border-radius: 4px;
@@ -73,8 +73,8 @@ h1, p {
   margin-right: auto;
   outline: none;
   border: 0;
-  color: black;
-  font-size: 16px;
+  color: inherit;
+  font-size: inherit;
   font-weight: 600;
   background-color: #ffdd2d;
   padding: 15px;
