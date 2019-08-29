@@ -16,7 +16,7 @@ const ignoredValues = [
   { value: 'DigestValue', label: 'DigestValue' },
   { value: 'SignatureValue', label: 'SignatureValue' },
   { value: 'X509SerialNumber', label: 'X509SerialNumber' },
-  
+
 ]
 const example = `{
    "TerminalKey": "15180119216597",
@@ -72,7 +72,7 @@ class App extends Component {
         {concString ? <span className={'fieldTitle'}>Concatenated Props:</span> : null}
         {concString ? <p className={'output'}>{this.state.concString}</p> : null}
         {request ? <span className={'fieldTitle'}>Request Object:</span> : null}
-        {request ? <p className={'output'}>{this.state.request}</p> : null}
+        {request ? <textarea disabled={true} className={'requestOutput'}>{JSON.stringify(this.state.request, undefined, 2)}</textarea> : null}
       </div >
     );
   }
@@ -95,7 +95,7 @@ class App extends Component {
       const concString = data.str
       const token = data.sha
       const request = this.getRequest(json, token)
-      this.setState({ concString, token, request: JSON.stringify(request) })
+      this.setState({ concString, token, request })
     }
     catch (error) {
       return this.setState({ genData: `Ошибка: ${error.message}` })
@@ -148,4 +148,3 @@ function concatObjProps(obj) {
   return props.reduce((concatenatedStr, prop) => `${concatenatedStr}${obj[prop]}`, '')
 }
 render(<App />, document.getElementById('root'));
-
