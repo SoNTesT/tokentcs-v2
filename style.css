@@ -16,11 +16,11 @@ h1, p {
 }
 
 .textarea {
-  font-family: buiHeading,-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,Roboto,'Helvetica Neue',sans-serif;
+  font-family: 'Helvetica Neue',sans-serif;
   transition: 0.4s;
   min-height: 400px;
   box-sizing:border-box;
-  border: 2px solid rgba(153,128,153, 0.9);
+  border: 2px solid #cbcfd3;
   border-radius: 4px;
   padding: 15px;
   margin: 10px;
@@ -48,19 +48,18 @@ h1, p {
   font-weight: 600;
   margin-bottom: 5px;
   margin-top: 5px;
-  display: none
 }
 
 .password {
-  font-family: buiHeading,-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,Roboto,'Helvetica Neue',sans-serif;
+  font-family: 'Helvetica Neue',sans-serif;
   box-sizing:border-box;
-  border: 2px solid rgba(153,128,153, 0.9);
+  border: 2px solid #cbcfd3;
   border-radius: 4px;
   padding: 15px;
   margin: 10px;
   outline: none;
   resize: none;
-  color: rgba(0,0,0, 0.6);
+  color: black;
   font-size: 15px;
   font-weight: 600;
 }
@@ -74,10 +73,10 @@ h1, p {
   margin-right: auto;
   outline: none;
   border: 0;
-  color: white;
+  color: black;
   font-size: 16px;
   font-weight: 600;
-  background-color: rgba(153,128,153, 0.9);
+  background-color: #ffdd2d;
   padding: 15px;
 }
 
@@ -86,15 +85,15 @@ h1, p {
 }
 
 .button.copied:hover {
-  background-color: rebeccapurple;;
+  background-color: rebeccapurple;
 }
 
 .button:hover {
-  background-color: rgba(153,128,153, 1);
+  background-color: #fcc521;
 }
 
 .button:active {
-  background-color: rgba(122,102,122, 1);
+  background-color: #fab619;
 }
 
 .output {
@@ -104,6 +103,6 @@ h1, p {
   margin: 10px;
   padding: 15px;
   overflow: auto;
-  background-color: #d2e1dd;
+  background-color: #ecf1f7;
   font-size: 16px;
 }
