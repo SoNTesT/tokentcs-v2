@@ -64,7 +64,7 @@ class App extends Component {
           <div className={'exampleTitle'}>JSON пример: </div>
           <span>{example}</span>
         </p>
-        <textarea
+        <textarea>
           onChange={this.onChange}
           value={this.state.textAreaData}
           className={'textarea'}
