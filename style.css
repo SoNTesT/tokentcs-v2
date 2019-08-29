@@ -65,6 +65,7 @@ h1, p {
 }
 
 .button {
+  border-radius: 5px;
   font-family: buiHeading,-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,Roboto,'Helvetica Neue',sans-serif;
   transition: 0.3s;
   width: 300px;
@@ -85,14 +86,17 @@ h1, p {
 }
 
 .button.copied:hover {
+  border-radius: 5px;
   background-color: rebeccapurple;
 }
 
 .button:hover {
+  border-radius: 5px;
   background-color: #fcc521;
 }
 
 .button:active {
+  border-radius: 5px;
   background-color: #fab619;
 }
 
