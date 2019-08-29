@@ -9,6 +9,7 @@ import './style.css';
 const ignoredValues = [
   { value: 'DATA', label: 'DATA' },
   { value: 'Receipt', label: 'Receipt' },
+  { value: 'receipt', label: 'receipt' },
   { value: 'Shops', label: 'Shops' },
   { value: 'Token', label: 'Token' },
   { value: 'Data', label: 'Data' },
