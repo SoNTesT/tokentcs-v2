@@ -28,7 +28,6 @@ h1, p {
   resize: none;
   color: rgba(0,0,0, 0.6);
   font-size: 15px;
-  font-weight: 600;
   background-color: #ecf1f7;
 }
 
@@ -63,7 +62,6 @@ h1, p {
   resize: none;
   color: black;
   font-size: 15px;
-  font-weight: 600;
 }
 
 .button {
