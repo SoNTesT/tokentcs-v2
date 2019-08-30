@@ -131,6 +131,10 @@ h1, p {
 
 }
 
+#example {
+color: black;
+}
+
 .requestOutput,
 .requestOutput:disabled {
   font-family: buiHeading,-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,Roboto,'Helvetica Neue',sans-serif;

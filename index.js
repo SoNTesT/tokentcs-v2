@@ -50,6 +50,10 @@ class App extends Component {
     const { token, concString, request } = this.state
     return (
       <div className={'container'}>
+        <p className={'output'}>
+          <div id="example">JSON example:</div>
+          {example}
+        </p>
         <div className={'selectWrapper'}>
           <span className={'selectTitle'}>Ignored Props:</span>
           <Select isMulti defaultValue={[...ignoredValues]} options={ignoredValues} onChange={this.onChangeSelect}></Select>
