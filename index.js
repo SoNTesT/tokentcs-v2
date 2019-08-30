@@ -50,8 +50,7 @@ class App extends Component {
     const { token, concString, request } = this.state
     return (
       <div className={'container'}>
-        <p className={'output'}>
-          <div id="example">JSON example:</div>
+        <p className={'example'}>
           {example}
         </p>
         <div className={'selectWrapper'}>
@@ -76,7 +75,7 @@ class App extends Component {
         {concString ? <span className={'fieldTitle'}>Concatenated Props:</span> : null}
         {concString ? <p className={'output'}>{this.state.concString}</p> : null}
         {request ? <span className={'fieldTitle'}>Request Object:</span> : null}
-        {request ? <textarea disabled={true} className={'requestOutput'}>{JSON.stringify(this.state.request, undefined, 2)}</textarea> : null}
+        {request ? <pre readonly="readonly" className={'requestOutput'} >{JSON.stringify(this.state.request, undefined, 2)}</pre> : null}
       </div >
     );
   }
