@@ -30,7 +30,6 @@ h1, p {
   color: rgba(0,0,0, 0.6);
   font-size: 15px;
   background-color: #ecf1f7;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,.12);
 }
 
 .textarea:focus {
@@ -71,7 +70,6 @@ h1, p {
   resize: none;
   color: black;
   font-size: 15px;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,.12);
 }
 
 .password:focus{
