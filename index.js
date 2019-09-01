@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Select from 'react-select'
 import cn from 'classnames'
+import jsn from 'json'
 import shajs from 'sha.js'
 import './style.css';
 
@@ -75,7 +76,7 @@ class App extends Component {
         {concString ? <span className={'fieldTitle'}>Concatenated Props:</span> : null}
         {concString ? <p className={'output'}>{this.state.concString}</p> : null}
         {request ? <span className={'fieldTitle'}>Request Object:</span> : null}
-        {request ? <pre readonly="readonly" className={'requestOutput'} >{JSON.stringify(this.state.request, undefined, 2)}</pre> : null}
+        {request ? <pre className={'requestOutput'} >{JSON.stringify(this.state.request, undefined, 2)}</pre> : null}
       </div >
     );
   }

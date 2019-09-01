@@ -49,6 +49,9 @@ h1, p {
   border: 1px solid #616871;
   border-radius: 4px;
 }
+.textarea:hover:not(:focus) {
+  background-color: #e4ebf3;
+}
 
 .fieldTitle {
   display: block;
@@ -88,6 +91,9 @@ h1, p {
   background-color: white;
   border: 1px solid #616871;
   border-radius: 4px;
+}
+.password:hover:not(:focus) {
+  background-color: #e4ebf3;
 }
 
 .button {
