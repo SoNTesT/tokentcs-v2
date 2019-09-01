@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Select from 'react-select'
 import cn from 'classnames'
-import jsn from 'json'
 import shajs from 'sha.js'
 import './style.css';
 
