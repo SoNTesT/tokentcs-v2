@@ -27,7 +27,7 @@ h1, p {
 
 .textarea {
   font-family: 'Helvetica Neue',sans-serif;
-  transition: 0.4s;
+  transition: 0.3s;
   min-height: 350px;
   font-weight: 400;
   box-sizing:border-box;
