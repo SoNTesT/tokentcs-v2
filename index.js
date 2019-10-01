@@ -13,7 +13,7 @@ document.title = "Token";
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
-    link.href = 'https://oplata.tinkoff.ru/landing/images/favicon.ico';
+    link.href = 'https://tokentcs.web.app/favicon.ico';
     document.getElementsByTagName('head')[0].appendChild(link);
 })();
 
