@@ -5,9 +5,14 @@ import cn from 'classnames'
 import shajs from 'sha.js'
 import './style.css';
 
-new HtmlWebpackPlugin({
-    favicon: "./src/favicon.png"
-})
+
+(function() {
+    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';
+    link.href = '/favicon.ico';
+    document.getElementsByTagName('head')[0].appendChild(link);
+})();
 
 // Свойства JSON которые необходимо исключить для формирования токена
 const ignoredValues = [
