@@ -6,7 +6,7 @@ import shajs from 'sha.js'
 import './style.css';
 
 
-document.title = "Some new title text";
+document.title = "Token";
 
 
 (function() {
