@@ -6,6 +6,9 @@ import shajs from 'sha.js'
 import './style.css';
 
 
+document.title = "Some new title text";
+
+
 (function() {
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
