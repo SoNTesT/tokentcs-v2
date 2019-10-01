@@ -109,6 +109,7 @@ h1, p {
   text-transform: uppercase;
   background-color: #ffdd2d;
   padding: 15px;
+  cursor: pointer;
 }
 
 .copied {
@@ -148,6 +149,7 @@ h1, p {
   -ms-user-select: all;
   user-select: all;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 #example {
@@ -173,4 +175,5 @@ color: black;
   user-select: all;
   text-align: left;
   border-radius: 4px;
+  cursor: pointer;
 }
