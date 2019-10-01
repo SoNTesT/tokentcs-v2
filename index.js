@@ -5,6 +5,10 @@ import cn from 'classnames'
 import shajs from 'sha.js'
 import './style.css';
 
+new HtmlWebpackPlugin({
+    favicon: "./src/favicon.png"
+})
+
 // Свойства JSON которые необходимо исключить для формирования токена
 const ignoredValues = [
   { value: 'DATA', label: 'DATA' },
