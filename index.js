@@ -28,6 +28,9 @@ const ignoredValues = [
   { value: 'DigestValue', label: 'DigestValue' },
   { value: 'SignatureValue', label: 'SignatureValue' },
   { value: 'X509SerialNumber', label: 'X509SerialNumber' },
+  { value: 'EmailList', label: 'EmailList' },
+  { value: 'PaymentIdList', label: 'PaymentIdList' },
+
 
 ]
 const example = `{
