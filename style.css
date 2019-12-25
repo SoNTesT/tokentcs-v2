@@ -152,11 +152,6 @@ h1, p {
   cursor: pointer;
 }
 
-.output:hover{
-  background-color: white;
-  border-radius: 4px;
-}
-
 #example {
 color: black;
 }
